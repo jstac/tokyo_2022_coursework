@@ -37,7 +37,7 @@ will be posted below.  Please check this page at least once per week.
 Primary source material:
 
 * Dynamic Programming: Volume 1 (John Stachurski and Thomas J. Sargent)
-  available [here](https://github.com/jstac/tokyo_2022_coursework/raw/master/dp.pdf).
+  available [here](https://github.com/jstac/tokyo_2022_coursework/raw/main/dp.pdf).
 
 Warning: These notes are still being edited!  Please print sections
 sequentially throughout the course, rather than all at once.
