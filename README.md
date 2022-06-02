@@ -44,9 +44,13 @@ sequentially throughout the course, rather than all at once.
 
 Secondary reading material:
 
+* [Abstract dynamic programming](https://web.mit.edu/dimitrib/www/AbstractDP_ED3_TEXT_2021.pdf) by Dimitri Bertsekas
+
+Programming resources:
+
 * [QuantEcon Python programming lectures](https://python-programming.quantecon.org/intro.html)
 * [QuantEcon economics lectures](https://python.quantecon.org/intro.html)
-* [Abstract dynamic programming](https://web.mit.edu/dimitrib/www/AbstractDP_ED3_TEXT_2021.pdf) by Dimitri Bertsekas
+* [Google colab](https://colab.research.google.com/)
 
 ## Assessment
 
