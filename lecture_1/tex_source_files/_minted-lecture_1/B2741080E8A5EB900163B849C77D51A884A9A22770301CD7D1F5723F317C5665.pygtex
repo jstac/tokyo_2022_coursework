@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{n}{In} \PYG{p}{[}\PYG{l+m+mi}{20}\PYG{p}{]:} \PYG{l+m+mi}{5} \PYG{o}{*} \PYG{l+m+mi}{10}\PYG{o}{**}\PYG{l+m+mi}{9} \PYG{c+c1}{\PYGZsh{} Expected lifespan of sun}
+\PYG{n}{Out}\PYG{p}{[}\PYG{l+m+mi}{20}\PYG{p}{]:} \PYG{l+m+mi}{5000000000}
+\end{Verbatim}
