@@ -1,0 +1,283 @@
+\documentclass[12pt]{article}
+
+
+%%%%%%%%%%%%%%%%%%%%%  MY STUFF %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyfoot[C]{ {\bf Page \thepage\ of ??? -- ADV. ECON. METHODS (EMET3011/8014)}}
+%\fancyhead{}
+%\renewcommand{\headrulewidth}{0pt}
+%\addtolength{\footskip}{80pt}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathpazo} 
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8]{inputenc}
+
+% caligraphic
+\usepackage{mathrsfs}
+\usepackage{bbm}
+\usepackage{subfigure}
+
+\usepackage{enumerate}
+
+\renewcommand{\baselinestretch}{1.1}
+
+
+\setcounter{tocdepth}{1}
+
+% skip a line between paragraphs, no indentation
+\setlength{\parskip}{1.5ex plus0.5ex minus0.5ex}
+\setlength{\parindent}{0pt}
+
+\newcommand{\navy}[1]{\textcolor{Blue}{\bf #1}}
+
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+
+\DeclareMathOperator{\cl}{cl}
+\DeclareMathOperator{\se}{se}
+%\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\interior}{int}
+\DeclareMathOperator{\Prob}{Prob}
+\DeclareMathOperator{\determinant}{det}
+\DeclareMathOperator{\Span}{span}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\range}{rng}
+\DeclareMathOperator{\trace}{trace}
+\DeclareMathOperator{\cov}{cov}
+\DeclareMathOperator{\corr}{corr}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\mse}{mse}
+
+\newcommand{\ess}{ \textrm{{\sc ess}} }
+\newcommand{\tss}{ \textrm{{\sc tss}} }
+\newcommand{\ssr}{ \textrm{{\sc ssr}} }
+\newcommand{\rssr}{ \textrm{{\sc rssr}} }
+\newcommand{\ussr}{ \textrm{{\sc ussr}} }
+
+
+% mics short cuts and symbols
+\newcommand{\st}{\ensuremath{\ \mathrm{s.t.}\ }}
+\newcommand{\setntn}[2]{ \{ #1 : #2 \} }
+\newcommand{\fore}{\therefore \quad}
+\newcommand{\tod}{\stackrel { d } {\to} }
+\newcommand{\eqdist}{\stackrel {\textrm{ \scriptsize{d} }} {=} }
+\newcommand{\iidsim}{\stackrel {\textrm{ {\sc iid }}} {\sim} }
+\newcommand{\1}{\mathbbm 1}
+\newcommand{\dee}{\,{\rm d}}
+\newcommand{\given}{\, | \,}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+
+\newcommand{\boldx}{ {\bf x} }
+\newcommand{\boldw}{ {\bf w} }
+\newcommand{\boldu}{ {\bf u} }
+\newcommand{\boldy}{ {\bf y} }
+\newcommand{\boldb}{ {\bf b} }
+\newcommand{\bolda}{ {\bf a} }
+\newcommand{\boldi}{ {\bf i} }
+\newcommand{\bolde}{ {\bf e} }
+\newcommand{\bolds}{ {\bf s} }
+\newcommand{\boldz}{ {\bf z} }
+\newcommand{\boldv}{ {\bf v} }
+
+\newcommand{\boldzero}{ {\bf 0} }
+\newcommand{\boldone}{ {\bf 1} }
+
+\newcommand{\boldalpha}{ {\boldsymbol \alpha} }
+\newcommand{\boldbeta}{ {\boldsymbol \beta} }
+\newcommand{\boldgamma}{ {\boldsymbol \gamma} }
+\newcommand{\boldtheta}{ {\boldsymbol \theta} }
+\newcommand{\boldepsilon}{ {\boldsymbol \epsilon} }
+\newcommand{\boldSigma}{ {\boldsymbol \Sigma} }
+
+\newcommand{\hboldy}{ \hat {\bf y} }
+\newcommand{\hboldu}{ \hat {\bf u} }
+\newcommand{\hboldbeta}{ \hat {\boldsymbol \beta} }
+
+\newcommand{\boldA}{\mathbf A}
+\newcommand{\boldZ}{\mathbf Z}
+\newcommand{\boldB}{\mathbf B}
+\newcommand{\boldC}{\mathbf C}
+\newcommand{\boldD}{\mathbf D}
+\newcommand{\boldM}{\mathbf M}
+\newcommand{\boldP}{\mathbf P}
+\newcommand{\boldI}{\mathbf I}
+\newcommand{\boldX}{\mathbf X}
+\newcommand{\boldY}{\mathbf Y}
+
+
+\newcommand{\RR}{\mathbbm R}
+\newcommand{\NN}{\mathbbm N}
+\newcommand{\PP}{\mathbbm P}
+\newcommand{\EE}{\mathbbm E \,}
+\newcommand{\XX}{\mathbbm X}
+\newcommand{\ZZ}{\mathbbm Z}
+\newcommand{\QQ}{\mathbbm Q}
+
+\newcommand{\fF}{\mathcal F}
+\newcommand{\nN}{\mathcal N}
+
+
+\newcommand{\Xsf}{\mathsf X}
+\newcommand{\Zsf}{\mathsf Z}
+
+
+\theoremstyle{definition}
+\newtheorem{question}{Question}
+
+
+
+%%%%%%%%%%%%%%%%%% end my preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\title{Practice Questions}
+
+\date{}
+
+%\maketitle
+
+\begin{center}
+
+    {\bf {\Large Introduction to Computational Macroeconomics}}
+
+    \bigskip
+    {\bf {\Large Tokyo 2022}}
+
+    \bigskip
+    {\bf {\Large Assignment}}
+
+    \today
+\end{center}
+
+\begin{itemize}
+    \item Due date: 12th July
+    \item Weight: 40\% of total marks
+\end{itemize}
+
+This assignment should be submitted by email as a Jupyter notebook no later
+than midnight on the due date.  (Points will be deducted for late
+assignments.)  Please send to \texttt{john.stachurski@anu.edu.au}.  
+
+Note that proofs and other discussion should also be included in the notebook.
+If you are not sure how to do this please ask.  No other files should be
+submitted.  I recommend that you stop and restart Jupyter before you submit,
+and make sure that the notebook runs from start to finish without error.
+
+\vspace{1em}
+
+Consider a worker who is currently employed and considering when to retire.
+While employed, the worker is paid a fixed wage $w$ in each period.  When she
+retires, the worker is paid a single lump sum pension $s$.  Both $w$ and $s$
+are nonnegative and constant.  (In particular, wages are not indexed to
+inflation.)
+
+The worker discounts future earnings using the real interest rate $r_t = i -
+\pi_t$, where $i$ is the nominal risk-free interest rate.  In other words, a
+payment $y_{t+1}$ is discounted to time $t$ present value via $\beta_t
+y_{t+1}$, where $\beta_t = 1/(1 + r_t)$.  The nominal risk-free rate is
+constant.
+
+Assume that the inflation rate obeys $\pi_t = \pi(Z_t)$ for some fixed
+function $\pi \in \RR^\Zsf$, where $\Zsf$ is a finite subset of $\RR$ and
+$(Z)_{t \geq 0}$ is $Q$-Markov for some stochastic matrix $Q$ on $\Zsf$.
+In what follows we set $n := |\Zsf|$.
+
+
+\begin{question}
+    Write down the Bellman equation for the problem, in terms of the lifetime
+    value for an employed worker.  Define the Bellman operator $T$
+    corresponding to the Bellman equation as a self-map on $\RR^\Zsf$. 
+\end{question}
+
+\begin{question}
+    Prove that $T$ is a contraction map on $\RR^\Zsf$ with respect to the
+    supremum norm whenever $\bar r := \min_{z \in \Zsf} (i - \pi(z))$
+    satisfies $\bar r > 0$.
+\end{question}
+
+Although the condition $\bar r > 0$ is sufficient for global stability of $T$,
+it is not necessary.  As we will learn later, it sufficies that the matrix
+$n \times n$ matrix
+%
+\begin{equation*}
+    L(z, z') := \frac{1}{1 + i - \pi(z)} Q(z, z')
+\end{equation*}
+%
+satisfies $r(L) < 1$.  
+
+\begin{question}
+    Let $\pi(z) = p + z$, where $p$ is a parameter indicating the long-run
+    average inflation rate.  Show that $r(L) < 1$ holds when $(Z_t)$ is
+    the Tauchen discretization of the AR(1) process $X_{t+1} = \rho X_t + \nu
+    W_{t+1}$, where $(W_t)_{t \geq 0}$ is {\sc iid} standard normal and
+    the parameters are given by
+    %
+    \begin{equation}\label{eq:dp}
+        s = 100, \;
+        w = 5,   \;
+        i = 0.1,\;
+        p = 0.06,\;
+        \rho = 0.9 \; \text{and} \;
+        \nu = 0.01
+    \end{equation}
+    %
+    The AR(1) process should be discretized to a grid of $n = 100$ points
+    (which is the size of the state space $\Zsf$).  To discretize, 
+    you can use the commands \texttt{import quantecon as qe} and
+    %
+    \begin{center}
+        \texttt{mc = qe.tauchen($\rho$, $\nu$, m=10, n=n)}
+    \end{center}
+\end{question}
+
+\begin{question}
+    Solve for the value function $v^*$ using value function iteration using
+    the default parameters in \eqref{eq:dp}.  Plot $v^*$ as
+    a function of $z$. Plot the stopping value $s$ on the same figure.    
+\end{question}
+
+\begin{question}
+    Plot the $v^*$-greedy policy as a function of $z$.
+    Provide some interpretation of the figure.  
+\end{question}
+
+\begin{question}
+    Prove that the value function $v^*$ is increasing on $\Zsf$ under the
+    parameters in \eqref{eq:dp}.  Provide some economic intuition if you can.
+\end{question}
+
+\begin{question}
+    Using the default parameters and simulation, compute the average number of
+    years until retirement at the default parameters.  In answering this
+    question, you should regard one period in the model as one month (i.e.,
+    wages are paid monthly and interest and inflation rates are monthly).
+    If you can, accelerate your simulation using Numba.
+\end{question}
+
+\begin{question}
+    Now set $w=4.9$ and repeat the last exercise.  What change do you observe?
+    How can you explain this change?
+\end{question}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
