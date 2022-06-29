@@ -161,28 +161,52 @@
     \item Weight: 40\% of total marks
 \end{itemize}
 
-This assignment should be submitted by email as a Jupyter notebook no later
-than midnight on the due date.  (Points will be deducted for late
-assignments.)  Please send to \texttt{john.stachurski@anu.edu.au}.  
+\vspace{1em}
+\hrule
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+This assignment should be submitted by email as a single Jupyter notebook no
+later than midnight on the due date.  Please note that 20\% of the total mark
+will be deducted for late assignments.  Please send your email to
+\texttt{john.stachurski@anu.edu.au}.  Make sure that you include your {\sc
+name and student number} in the Jupyter notebook.  The subject of your email
+should be ``Comp econ assignment''.
 
 Note that proofs and other discussion should also be included in the notebook.
 If you are not sure how to do this please ask.  No other files should be
 submitted.  I recommend that you stop and restart Jupyter before you submit,
 and make sure that the notebook runs from start to finish without error.
 
+Please note that \emph{you may collaborate with up to two other students}.
+Please be generous and offer to collaborate with any student who does not have
+a partner.  You should include the names of the students with whom you
+collaborated in your Jupyter notebook.
+
+Groups of students should not collaborate with other groups.
+
+\vspace{1em}
+\vspace{1em}
+\vspace{1em}
+\hrule
+\vspace{1em}
+\hrule
 \vspace{1em}
 
-Consider a worker who is currently employed and considering when to retire.
-While employed, the worker is paid a fixed wage $w$ in each period.  When she
-retires, the worker is paid a single lump sum pension $s$.  Both $w$ and $s$
-are nonnegative and constant.  (In particular, wages are not indexed to
-inflation.)
+\newpage
+
+A worker is currently employed and deciding when to retire.  While
+employed, the worker is paid a fixed wage $w$ in each period.  When she
+retires, she is paid a single lump sum pension $s$.  Both $w$ and $s$
+are nonnegative and constant.  
 
 The worker discounts future earnings using the real interest rate $r_t = i -
-\pi_t$, where $i$ is the nominal risk-free interest rate.  In other words, a
-payment $y_{t+1}$ is discounted to time $t$ present value via $\beta_t
-y_{t+1}$, where $\beta_t = 1/(1 + r_t)$.  The nominal risk-free rate is
-constant.
+\pi_t$, where $i$ is the nominal risk-free interest rate and $\pi_t$ is time
+$t$ inflation.  In other words, a payment $y_{t+1}$ at $t+1$
+is discounted to time $t$
+present value via $\beta_t y_{t+1}$, where $\beta_t = 1/(1 + r_t)$.  The
+nominal risk-free rate is constant.
 
 Assume that the inflation rate obeys $\pi_t = \pi(Z_t)$ for some fixed
 function $\pi \in \RR^\Zsf$, where $\Zsf$ is a finite subset of $\RR$ and

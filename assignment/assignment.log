@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.3.10)  27 JUN 2022 17:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.3.10)  29 JUN 2022 10:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -182,59 +182,59 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 16
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 166.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 173.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 176.
+) [1
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 176.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 176.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 176.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 176.
+(Font)              scaled to size 12.50409pt on input line 200.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 176.
+(Font)              scaled to size 9.37807pt on input line 200.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 176.
+(Font)              scaled to size 7.29405pt on input line 200.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 176.
+(Font)              scaled to size 12.50409pt on input line 200.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 176.
+(Font)              scaled to size 9.37807pt on input line 200.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 176.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 176.
+(Font)              scaled to size 7.29405pt on input line 200.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 176.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 200.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+bbm on input line 188.
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 212.
  (/usr/share/texlive/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [1
-
-] [2] [3] (./assignment.aux) ) 
+) [2] [3] (./assignment.aux) ) 
 Here is how much of TeX's memory you used:
- 2513 strings out of 477220
- 33217 string characters out of 5832722
- 313306 words of memory out of 5000000
- 22195 multiletter control sequences out of 15000+600000
- 418816 words of font info for 66 fonts, out of 8000000 for 9000
+ 2515 strings out of 477220
+ 33238 string characters out of 5832722
+ 314306 words of memory out of 5000000
+ 22196 multiletter control sequences out of 15000+600000
+ 419713 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 67i,4n,74p,227b,172s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,4n,74p,227b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on assignment.pdf (3 pages).

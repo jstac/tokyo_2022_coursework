@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1656318429 "assignment.tex" "assignment.pdf" "assignment" 1656318429
+["pdflatex"] 1656466410 "assignment.tex" "assignment.pdf" "assignment" 1656466410
   "/etc/texmf/web2c/texmf.cnf" 1646895051 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm" 1136768653 3456 16dd534f88eb2bd21ebc7203786b436e ""
@@ -7,6 +7,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm" 1136768653 1348 0e8eb69b4437626c0f6c9bed4a4e373c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm" 1136768653 3820 ee5b9d58608ae328e43c6e2bfd4ff851 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm" 1136768653 6396 8f2d6400481d3b17b3e6693d0adfe2c9 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm" 1136768653 3684 929c666381f7272e81481908b735ccba ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/bbm/bbm12.tfm" 1227036886 556 710091e9bfd7488f1b5667243215698b ""
@@ -55,9 +56,9 @@
   "/usr/share/texmf/tex/latex/lm/t1lmtt.fd" 1256929440 2681 354015af3b61e7be30009f084986375a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1646895108 4944439 8ca7885d66bdd0197b7a2e53c4de5b7e ""
-  "assignment.aux" 1656318429 57 de1406cbf8b0484b74ca9af432473f52 "pdflatex"
-  "assignment.tex" 1656318428 8143 b82e32155caa212bf4bfb96f9494bf0a ""
+  "assignment.aux" 1656466410 57 de1406cbf8b0484b74ca9af432473f52 "pdflatex"
+  "assignment.tex" 1656466409 8769 2075fab608b53682d3af7107b4b11255 ""
   (generated)
-  "assignment.log"
   "assignment.pdf"
   "assignment.aux"
+  "assignment.log"
